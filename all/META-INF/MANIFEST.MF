@@ -1,7 +1,0 @@
-Manifest-Version: 1.0
-Content-Package-Id: com.mysite:mysite.all:1.0.0-SNAPSHOT
-Content-Package-Description: All content package for My Site
-Content-Package-Roots: /apps/mysite-packages,/apps/mysite-vendor-package
- s,/etc/packages/adobe/consulting/acs-aem-commons-content-4.7.2.zip
-Content-Package-Type: mixed
-

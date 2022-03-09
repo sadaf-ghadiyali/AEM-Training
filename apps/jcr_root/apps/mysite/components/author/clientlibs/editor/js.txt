@@ -1,4 +1,0 @@
-
-#base=js
-
-author.js
