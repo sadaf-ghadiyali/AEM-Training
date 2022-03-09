@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:allowedTemplates="[/conf/mysite/settings/wcm/templates/.*,mysite/templates/.*]"
+        cq:conf="/conf/mysite"
+        cq:lastModified="{Date}2022-02-26T23:08:59.167+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2022-02-24T11:21:19.852+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="My Site"
+        jcr:uuid="e8d4db14-7d08-46f5-9f1f-e965eb5470c1"
+        sling:configRef="/conf/mysite"
+        sling:redirect="true"
+        sling:redirectStatus="{Long}302"
+        sling:resourceType="foundation/components/redirect"
+        redirectTarget="/content/mysite/us/en">
+        <image jcr:primaryType="nt:unstructured">
+            <file/>
+        </image>
+    </jcr:content>
+    <us/>
+    <language-masters/>
+    <fr/>
+    <in/>
+    <us0/>
+    <rep:policy/>
+</jcr:root>

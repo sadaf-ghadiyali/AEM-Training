@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2022-03-03T11:51:19.686+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2022-02-24T10:51:05.914+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:template="/conf/mysite/settings/wcm/templates/page-content"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="en"
+        jcr:uuid="1bf8eb01-d5b6-44cf-9a82-bc3727ad4403"
+        sling:resourceType="mysite/components/page"
+        pageTitle="My Site">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="mysite/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="mysite/components/container">
+                <title
+                    jcr:lastModified="{Date}2022-03-01T12:07:05.692+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="My First AEM Site"
+                    sling:resourceType="mysite/components/title"/>
+                <container
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="mysite/components/container"
+                    layout="responsiveGrid">
+                    <image_1615995820
+                        jcr:created="{Date}2022-02-22T18:46:44.000+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-02-22T18:51:35.166+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="mysite/components/image"
+                        altValueFromDAM="false"
+                        displayPopupTitle="false"
+                        fileReference="/content/dam/mysite/download.jpg"
+                        isDecorative="false"
+                        titleValueFromDAM="false">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="3"/>
+                        </cq:responsive>
+                    </image_1615995820>
+                    <teaser_copy
+                        jcr:description="&lt;p>Don't stop half way, go for the top!&lt;/p>&#xd;&#xa;"
+                        jcr:lastModified="{Date}2022-02-22T18:46:37.090+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Epic Journey"
+                        sling:resourceType="mysite/components/teaser"
+                        actionsEnabled="false"
+                        descriptionFromPage="false"
+                        textIsRich="true"
+                        titleFromPage="false">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="4"/>
+                        </cq:responsive>
+                    </teaser_copy>
+                    <teaser_copy_1579324932
+                        jcr:description="&lt;p>Don't stop half way, go for the top!&lt;/p>&#xd;&#xa;"
+                        jcr:lastModified="{Date}2022-02-22T18:45:26.000+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Epic Journey"
+                        sling:resourceType="mysite/components/teaser"
+                        actionsEnabled="false"
+                        descriptionFromPage="false"
+                        fileReference="/content/dam/core-components-examples/library/sample-assets/mountain-range.jpg"
+                        textIsRich="true"
+                        titleFromPage="false">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="4"/>
+                        </cq:responsive>
+                    </teaser_copy_1579324932>
+                    <helloworld
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="mysite/components/helloworld"
+                        text="lalala :) Changed from CRX"/>
+                    <image
+                        jcr:created="{Date}2022-02-22T12:29:26.367+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-02-22T12:29:37.967+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="mysite/components/image"
+                        fileReference="/content/dam/core-components-examples/library/sample-assets/lava-rock-formation.jpg"/>
+                    <teaser
+                        jcr:description="&lt;p>Don't stop half way, go for the top!&lt;/p>&#xd;&#xa;"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Epic Journey"
+                        sling:resourceType="mysite/components/teaser"
+                        actionsEnabled="false"
+                        descriptionFromPage="false"
+                        textIsRich="true"
+                        titleFromPage="false">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="4"/>
+                        </cq:responsive>
+                    </teaser>
+                    <author
+                        jcr:created="{Date}2022-02-23T22:08:19.516+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-02-23T22:09:47.269+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="mysite/components/author"
+                        fname="john"
+                        lname="Doe"/>
+                    <author_books
+                        jcr:created="{Date}2022-02-24T16:00:59.192+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-02-25T18:49:14.725+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="mysite/components/content/author-books"
+                        authorName="Sadaf"
+                        authorname="Sadaf"
+                        books="[Book1,Book2]">
+                        <bookdetailswithnestedmultified jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                bookgenre="nested genre"
+                                bookname="nested book name">
+                                <bookeditions jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        jcr:primaryType="nt:unstructured"
+                                        bookedition="1"
+                                        editiondate="{Date}2022-02-09T00:00:00.000+05:30"/>
+                                    <item1
+                                        jcr:primaryType="nt:unstructured"
+                                        bookedition="2"
+                                        editiondate="{Date}2022-02-28T00:00:00.000+05:30"/>
+                                </bookeditions>
+                            </item0>
+                        </bookdetailswithnestedmultified>
+                        <bookdetailswithmap jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                bookgenre="Comedu"
+                                bookname="book1"
+                                bookpublishyear="2010"/>
+                            <item1
+                                jcr:primaryType="nt:unstructured"
+                                bookgenre="Horror"
+                                bookname="book2"
+                                bookpublishyear="2018"/>
+                            <item2
+                                jcr:primaryType="nt:unstructured"
+                                bookgenre="Drama"
+                                bookname="book3"
+                                bookpublishyear="2019"/>
+                            <item3
+                                jcr:primaryType="nt:unstructured"
+                                bookgenre="gfsdg"
+                                bookname="asfa"
+                                bookpublishyear="fdfg"/>
+                        </bookdetailswithmap>
+                        <bookdetailswithbean jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                bookname="bean book"
+                                copies="50"
+                                publishdate="{Date}2022-02-02T00:00:00.000+05:30"/>
+                        </bookdetailswithbean>
+                        <bookdetailswithnestedmultifield jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                bookgenre="Comedy"
+                                bookname="nested book1">
+                                <bookeditions jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        jcr:primaryType="nt:unstructured"
+                                        bookedition="1"
+                                        editiondate="{Date}2022-02-02T00:00:00.000+05:30"/>
+                                    <item1
+                                        jcr:primaryType="nt:unstructured"
+                                        bookedition="2"
+                                        editiondate="{Date}2022-02-25T00:00:00.000+05:30"/>
+                                </bookeditions>
+                            </item0>
+                        </bookdetailswithnestedmultifield>
+                    </author_books>
+                    <xmlexporter
+                        jcr:created="{Date}2022-02-25T14:38:51.321+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-02-25T15:23:56.602+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="mysite/components/content/xmlexporter"
+                        books="[bbbb,bbbccc]"
+                        xmldate="{Date}2022-02-25T00:00:00.000+05:30"
+                        xmltitle="xyztitle">
+                        <bookdetailswithmap jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                bookgenre="sdgfsd"
+                                bookname="Map Book1"
+                                bookpublishyear="jbj"/>
+                        </bookdetailswithmap>
+                    </xmlexporter>
+                    <servicedemo
+                        jcr:created="{Date}2022-02-28T20:45:04.070+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-02-28T20:45:04.070+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="mysite/components/content/serviceDemo"/>
+                    <osgiconfigdemo_630928894
+                        jcr:created="{Date}2022-02-28T23:45:35.616+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-02-28T23:45:35.616+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="mysite/components/content/osgiConfigDemo"/>
+                    <modularosgi
+                        jcr:created="{Date}2022-03-01T10:27:14.462+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-03-01T10:27:14.462+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="mysite/components/content/modularOSGi"/>
+                    <author_1967064825
+                        jcr:created="{Date}2022-03-01T13:16:39.805+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-03-01T13:16:39.805+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="mysite/components/author"/>
+                    <author_1697943798
+                        jcr:created="{Date}2022-03-01T16:59:55.549+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-03-01T16:59:55.549+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="mysite/components/author"/>
+                    <servicedemo_1326301068
+                        jcr:created="{Date}2022-03-01T23:22:57.097+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-03-01T23:22:57.097+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="mysite/components/content/serviceDemo"/>
+                    <author_books_1607134983
+                        jcr:created="{Date}2022-03-03T11:48:38.063+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-03-03T11:49:35.254+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="mysite/components/content/author-books"
+                        authorname="author book 2"
+                        books="[xyz ,fdfds]">
+                        <bookdetailswithmap jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                bookgenre="sdfdsf"
+                                bookname="fdsf"
+                                bookpublishyear="sfdg"/>
+                        </bookdetailswithmap>
+                    </author_books_1607134983>
+                    <author_books_copy
+                        jcr:created="{Date}2022-02-24T16:00:59.192+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-02-25T18:49:14.725+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="mysite/components/content/author-books"
+                        authorName="Sadaf"
+                        authorname="Sadaf"
+                        books="[Book1,Book2]">
+                        <bookdetailswithnestedmultified jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                bookgenre="nested genre"
+                                bookname="nested book name">
+                                <bookeditions jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        jcr:primaryType="nt:unstructured"
+                                        bookedition="1"
+                                        editiondate="{Date}2022-02-09T00:00:00.000+05:30"/>
+                                    <item1
+                                        jcr:primaryType="nt:unstructured"
+                                        bookedition="2"
+                                        editiondate="{Date}2022-02-28T00:00:00.000+05:30"/>
+                                </bookeditions>
+                            </item0>
+                        </bookdetailswithnestedmultified>
+                        <bookdetailswithmap jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                bookgenre="Comedu"
+                                bookname="book1"
+                                bookpublishyear="2010"/>
+                            <item1
+                                jcr:primaryType="nt:unstructured"
+                                bookgenre="Horror"
+                                bookname="book2"
+                                bookpublishyear="2018"/>
+                            <item2
+                                jcr:primaryType="nt:unstructured"
+                                bookgenre="Drama"
+                                bookname="book3"
+                                bookpublishyear="2019"/>
+                            <item3
+                                jcr:primaryType="nt:unstructured"
+                                bookgenre="gfsdg"
+                                bookname="asfa"
+                                bookpublishyear="fdfg"/>
+                        </bookdetailswithmap>
+                        <bookdetailswithbean jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                bookname="bean book"
+                                copies="50"
+                                publishdate="{Date}2022-02-02T00:00:00.000+05:30"/>
+                        </bookdetailswithbean>
+                        <bookdetailswithnestedmultifield jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                bookgenre="Comedy"
+                                bookname="nested book1">
+                                <bookeditions jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        jcr:primaryType="nt:unstructured"
+                                        bookedition="1"
+                                        editiondate="{Date}2022-02-02T00:00:00.000+05:30"/>
+                                    <item1
+                                        jcr:primaryType="nt:unstructured"
+                                        bookedition="2"
+                                        editiondate="{Date}2022-02-25T00:00:00.000+05:30"/>
+                                </bookeditions>
+                            </item0>
+                        </bookdetailswithnestedmultifield>
+                    </author_books_copy>
+                </container>
+            </container>
+        </root>
+    </jcr:content>
+    <home/>
+    <my-site-template-demo/>
+</jcr:root>

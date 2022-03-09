@@ -1,0 +1,35 @@
+<'vlt'='http://www.day.com/jcr/vault/1.0'>
+<'nt'='http://www.jcp.org/jcr/nt/1.0'>
+<'jcr'='http://www.jcp.org/jcr/1.0'>
+<'sling'='http://sling.apache.org/jcr/sling/1.0'>
+<'rep'='internal'>
+
+[vlt:Package]
+  orderable mixin
+  + vlt:definition (nt:base) = vlt:PackageDefinition
+
+[vlt:PackageDefinition] > nt:unstructured
+  orderable
+  - artifactId (string)
+  - jcr:created (date)
+  - jcr:createdBy (string)
+  - jcr:lastModified (date)
+  - lastUnpackedBy (string)
+  - jcr:description (string)
+  - groupId (string)
+  - lastUnpacked (date)
+  - version (string)
+  - jcr:lastModifiedBy (string)
+  - dependencies (string) multiple
+  + thumbnail (nt:base) = nt:unstructured
+  + filter (nt:base) = nt:unstructured
+
+[sling:Folder] > nt:folder
+  - * (undefined) multiple
+  - * (undefined)
+  + * (nt:base) = sling:Folder version
+
+[rep:RepoAccessControllable]
+  mixin
+  + rep:repoPolicy (rep:Policy) protected ignore
+

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/mysite-packages"/>
+    <filter root="/apps/mysite-vendor-packages"/>
+    <filter root="/etc/packages/adobe/consulting/acs-aem-commons-content-4.7.2.zip"/>
+</workspaceFilter>

@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Content-Package-Id: com.mysite:mysite.ui.content:1.0.0-SNAPSHOT
+Content-Package-Description: UI content package for My Site
+Content-Package-Roots: /content/experience-fragments/mysite,/conf/mysite
+ ,/content/mysite,/content/dam/mysite
+Content-Package-Dependencies: com.mysite:mysite.ui.apps:1.0.0-SNAPSHOT
+Content-Package-Type: content
+

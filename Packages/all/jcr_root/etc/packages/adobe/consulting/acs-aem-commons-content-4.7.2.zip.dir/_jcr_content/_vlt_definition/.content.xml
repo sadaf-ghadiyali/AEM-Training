@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:vlt="http://www.day.com/jcr/vault/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:created="{Date}2020-07-08T16:56:46.229-05:00"
+    jcr:createdBy="brobert"
+    jcr:description="ACS AEM Commons container content package which delivers acs-aem-commons-ui.apps and acs-aem-commons-ui.content."
+    jcr:primaryType="vlt:PackageDefinition"
+    sling:resourceType="cq/packaging/components/pack/definition"
+    cqVersion="5.3"
+    dependencies="[com.mysite:mysite.all:[1.0.0-SNAPSHOT\,1.0.0-SNAPSHOT]]"
+    group="adobe/consulting"
+    lastUnpacked="{Date}2022-02-28T20:33:15.783+05:30"
+    lastUnpackedBy="admin"
+    lastUnwrapped="{Date}2022-02-28T20:33:13.729+05:30"
+    name="acs-aem-commons-content"
+    path="/etc/packages/day_internal/consulting/acs-aem-commons-content-0.0.1-SNAPSHOT"
+    requiresRestart="{Boolean}false"
+    requiresRoot="{Boolean}false"
+    subPackages="[adobe/consulting:acs-aem-commons-ui.apps:4.7.2,adobe/consulting:acs-aem-commons-ui.content:4.7.2]"
+    version="4.7.2">
+    <thumbnail.png/>
+    <filter jcr:primaryType="nt:unstructured">
+        <f0
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/etc/packages/adobe/consulting/acs-aem-commons-ui.apps-4.7.2.zip"
+            rules="[]"/>
+        <f1
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/etc/packages/adobe/consulting/acs-aem-commons-ui.content-4.7.2.zip"
+            rules="[]"/>
+    </filter>
+</jcr:root>

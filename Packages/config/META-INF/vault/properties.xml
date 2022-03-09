@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>FileVault Package Properties</comment>
+<entry key="description">UI config package for My Site</entry>
+<entry key="requiresRestart">false</entry>
+<entry key="packageType">application</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="lastWrappedBy">admin</entry>
+<entry key="packageFormatVersion">2</entry>
+<entry key="group">com.mysite</entry>
+<entry key="created">2022-03-09T12:38:20.408+05:30</entry>
+<entry key="lastModifiedBy">admin</entry>
+<entry key="buildCount">1</entry>
+<entry key="lastWrapped">2022-03-09T12:38:20.342+05:30</entry>
+<entry key="version">1.0.0-SNAPSHOT</entry>
+<entry key="dependencies"></entry>
+<entry key="createdBy">admin</entry>
+<entry key="name">mysite.ui.config</entry>
+<entry key="lastModified">2022-03-09T12:38:20.342+05:30</entry>
+</properties>
