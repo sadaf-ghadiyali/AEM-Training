@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.mysite.core.models.Impl.OSGiConfigModuleImpl" immediate="true" activate="activate">
+  <property name="serviceName" type="String" value="My Site Service"/>
+  <property name="serviceURL" type="String" value="localhost:4502"/>
+  <service>
+    <provide interface="com.mysite.core.models.OSGiConfigModule"/>
+  </service>
+  <implementation class="com.mysite.core.models.Impl.OSGiConfigModuleImpl"/>
+</scr:component>

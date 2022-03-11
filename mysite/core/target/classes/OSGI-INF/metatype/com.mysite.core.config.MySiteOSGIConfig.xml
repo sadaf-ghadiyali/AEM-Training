@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.2.0" localization="OSGI-INF/l10n/com.mysite.core.config.MySiteOSGIConfig">
+  <OCD id="com.mysite.core.config.MySiteOSGIConfig" name="My Site - Modular OSGI Configuration" description="Modular OSGI Config demo">
+    <AD id="serviceID" type="Integer" name="Service ID" description="Enter service ID"/>
+    <AD id="serviceName" type="String" name="Service Name" description="Enter Service Name" default="My\ Site\ Service"/>
+    <AD id="serviceURL" type="String" name="Service URL" description="Enter Service URL" default="localhost:4502"/>
+  </OCD>
+  <Designate pid="com.mysite.core.models.Impl.OSGiConfigModuleImpl">
+    <Object ocdref="com.mysite.core.config.MySiteOSGIConfig"/>
+  </Designate>
+</metatype:MetaData>
